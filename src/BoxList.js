@@ -8,7 +8,7 @@ class BoxList extends Component {
         this.state = { boxes: [{ width: 10, height: 40, color: 'orange' }] };
     }
     create(newBox) {
-        this.setState = { boxes: [{ width: 10, height: 40, color: 'orange' }] };
+        this.setState = { boxes: [] };
         this.create = this.create.bind(this);
     }
     render() {
